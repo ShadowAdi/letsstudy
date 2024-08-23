@@ -21,7 +21,7 @@ I Want you to Introduce to my new project StudyRoom. It is an Full Stack Project
 
 ![Profile ](examples/Profile.png)
 
-[![Watch the video](examples/Home.png)](examples/video.mp4)
+[![Watch the video](examples/Home.png)](examples/Lets'Study.mp4)
 
 # Django Project Setup
 
