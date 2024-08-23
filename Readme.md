@@ -21,3 +21,60 @@ I Want you to Introduce to my new project StudyRoom. It is an Full Stack Project
 
 ![Profile ](examples/Profile.png)
 
+
+# Django Project Setup
+
+This guide provides instructions for setting up a Django project from a GitHub repository, including creating a virtual environment and installing dependencies.
+
+## Prerequisites
+
+- Git
+- Python 3.6 or higher
+- pip
+
+## Setup Instructions
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone [repo-url](https://github.com/ShadowAdi/letsstudy.git)
+    cd letsstudy
+    ```
+
+2. **Create a virtual environment**:
+
+    ```bash
+    python -m venv venv
+    ```
+
+3. **Activate the virtual environment**:
+
+    - **Windows**: `venv\Scripts\activate`
+    - **macOS/Linux**: `source venv/bin/activate`
+
+4. **Install dependencies**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Apply database migrations**:
+
+    ```bash
+    python manage.py migrate
+    ```
+
+6. **Run the Django development server**:
+
+    ```bash
+    python manage.py runserver
+    ```
+
+7. **Additional commands**:
+
+    - Create a superuser: `python manage.py createsuperuser`
+    - Deactivate the virtual environment: `deactivate`
+
+## License
+
+This project is licensed under the MIT License.
